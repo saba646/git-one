@@ -1,0 +1,25 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+}
+div{
+    background-color: cadetblue;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes move {
+    from{
+        left: 0;
+    }
+    to{
+        left: 60%;
+    }
+    
+}
